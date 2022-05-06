@@ -1,0 +1,19 @@
+empname={1:['arhaan'],2:['gaurav'],3:['ronith']}
+empdesign={1:['software analyst'],2:['interior design'],3:['fullstack developer']}
+empdoj={1:['aug 22'],2:['oct 10'],3:['feb 25']}
+empsalary={1:[35000],2:[50000],3:[160000]}
+empplace={1:['vizag'],2:['hyderabad'],3:['banglore']}
+n=int(input("enter employee no:"))
+print("name of the employee:",empname[n][0])
+print("Design of the emplolyee:",empdesign[n][0])
+print("Employee date of joining:",empdoj[n][0])
+print("Employee salary:",empsalary[n][0])
+print("Place of the Employee:",empplace[n][0])
+
+output
+enter employee no:2
+name of the employee: gaurav
+Design of the emplolyee: interior design
+Employee date of joining: oct 10
+Employee salary: 50000
+Place of the Employee: hyderabad
